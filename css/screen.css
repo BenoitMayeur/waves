@@ -1,0 +1,40 @@
+html{
+    font-size: 18px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.curved{
+    background-color: #00ffff;
+    color: white;
+    text-align: center;
+    margin: 0;
+    height: 100%;
+}
+.curved h1{
+    margin-top: -10px;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2ee6e6;
+}
+
+.curved svg{
+    display: block;
+    margin: 0;
+}
+
+.curved_upper{
+    background-color: white;
+    margin: 0;
+}
+
+@media only screen and (min-width: 600px) {
+    .curved h1{
+        font-size: 6rem;
+    }
+  }
